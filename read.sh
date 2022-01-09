@@ -1,12 +1,13 @@
 #!/bin/bash
 
-read str
-# str='fuga'
+# if文で複数分岐
 
-if [ $str = 'hoge' ]; then
-    echo 'hogeが入っています'
+read str
+
+if [ "$str" = 'hoge' ]; then
+    echo 'contains hoge.'
 elif [ "$str" = "fuga" ]; then
-    echo "fugaが入っています"
+    echo "contains fuga."
 else
-    echo 'わからない'
+    echo 'unknown.'
 fi
