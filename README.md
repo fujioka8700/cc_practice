@@ -1,1 +1,1 @@
-# shellscript01
+# C++ の復習です。
